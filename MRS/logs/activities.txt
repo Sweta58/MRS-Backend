@@ -1,0 +1,238 @@
+[20240314_230958]
+Processing image from web...
+------------------------------------------------------------------------
+Result from imageProcessor(image): ['pharmacy medicine', 'keep out of reach of children', 'pharmacy', 'paracetamol', 'health?', 'paracetamol 500 mg', 'capsule', 'shaped', 'tablets', 'pain relief that is gentle on the stomach', 'aust r 295505']
+<<pharmacy medicine>> = 
+<<keep out of reach of children>> = 
+<<pharmacy>> = 
+<<paracetamol>> = paracetamol
+<<health?>> = 
+<<paracetamol 500 mg>> = 
+<<capsule>> = 
+<<shaped>> = 
+<<tablets>> = 
+<<pain relief that is gentle on the stomach>> = 
+<<aust r 295505>> = 
+Medicines Identified = ['paracetamol']
+Checking availability of acetaminophen in OpenFDA
+acetaminophen not found in OpenFDA
+webResponse = {'generic_name': '', 'purpose': '', 'do_not_use': ''}
+Processing successful!
+------------------------------------------------------------------------
+
+[20240314_231314]
+Processing image from web...
+------------------------------------------------------------------------
+Result from imageProcessor(image): ['pharmacy medicine', 'keep out of reach of children', 'pharmacy', 'paracetamol', 'health?', 'paracetamol 500 mg', 'capsule', 'shaped', 'tablets', 'pain relief that is gentle on the stomach', 'aust r 295505']
+<<pharmacy medicine>> = 
+<<keep out of reach of children>> = 
+<<pharmacy>> = 
+<<paracetamol>> = paracetamol
+<<health?>> = 
+<<paracetamol 500 mg>> = 
+<<capsule>> = 
+<<shaped>> = 
+<<tablets>> = 
+<<pain relief that is gentle on the stomach>> = 
+<<aust r 295505>> = 
+Medicines Identified = ['paracetamol']
+Checking availability of acetaminophen in OpenFDA
+acetaminophen not found in OpenFDA
+webResponse = {'generic_name': 'acetaminophen', 'purpose': 'Purpose Pain reliever/fever reducer', 'do_not_use': 'Do not use if you are allergic to acetaminophen or any of the inactive ingredients in this product with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.'}
+Processing successful!
+------------------------------------------------------------------------
+
+[20240314_231747]
+Processing image from web...
+------------------------------------------------------------------------
+Result from imageProcessor(image): ['ibuprofen', '40umg tablets bp', ';flamingo']
+<<ibuprofen>> = ibuprofen
+<<40umg tablets bp>> = 
+<<;flamingo>> = 
+Medicines Identified = ['ibuprofen']
+Checking availability of ibuprofen in OpenFDA
+ibuprofen not found in OpenFDA
+webResponse = {'generic_name': 'ibuprofen', 'purpose': 'Purpose Pain reliever/fever reducer', 'do_not_use': 'Do not use if you have ever had an allergic reaction to any other pain reliever/fever reducer right before or after heart surgery'}
+Processing successful!
+------------------------------------------------------------------------
+
+[20240314_232110]
+Processing image from web...
+------------------------------------------------------------------------
+Result from imageProcessor(image): ['ibuprofen', '40umg tablets bp', ';flamingo']
+<<ibuprofen>> = ibuprofen
+<<40umg tablets bp>> = 
+<<;flamingo>> = 
+Medicines Identified = ['ibuprofen']
+Checking availability of ibuprofen in OpenFDA
+ibuprofen not found in OpenFDA
+webResponse = {'generic_name': 'Ibuprofen', 'purpose': 'Purpose pain reliever/fever reducer', 'do_not_use': 'Do not use if you have ever had an allergic reaction to any other pain reliever/fever reducer right before or after heart surgery'}
+Processing successful!
+------------------------------------------------------------------------
+
+[20240314_232152]
+Processing image from web...
+------------------------------------------------------------------------
+Result from imageProcessor(image): ['pharmacy medicine', 'keep out of reach of children', 'pharmacy', 'paracetamol', 'health?', 'paracetamol 500 mg', 'capsule', 'shaped', 'tablets', 'pain relief that is gentle on the stomach', 'aust r 295505']
+<<pharmacy medicine>> = 
+<<keep out of reach of children>> = 
+<<pharmacy>> = 
+<<paracetamol>> = paracetamol
+<<health?>> = 
+<<paracetamol 500 mg>> = 
+<<capsule>> = 
+<<shaped>> = 
+<<tablets>> = 
+<<pain relief that is gentle on the stomach>> = 
+<<aust r 295505>> = 
+Medicines Identified = ['paracetamol']
+Checking availability of paracetamol in OpenFDA
+paracetamol found in OpenFDA
+webResponse = {}
+Processing successful!
+------------------------------------------------------------------------
+
+[20240314_232238]
+Processing image from web...
+------------------------------------------------------------------------
+Result from imageProcessor(image): ['pharmacy medicine', 'keep out of reach of children', 'pharmacy', 'paracetamol', 'health?', 'paracetamol 500 mg', 'capsule', 'shaped', 'tablets', 'pain relief that is gentle on the stomach', 'aust r 295505']
+<<pharmacy medicine>> = 
+<<keep out of reach of children>> = 
+<<pharmacy>> = 
+<<paracetamol>> = paracetamol
+<<health?>> = 
+<<paracetamol 500 mg>> = 
+<<capsule>> = 
+<<shaped>> = 
+<<tablets>> = 
+<<pain relief that is gentle on the stomach>> = 
+<<aust r 295505>> = 
+Medicines Identified = ['paracetamol']
+Checking availability of paracetamol in OpenFDA
+paracetamol not found in OpenFDA
+webResponse = {'generic_name': 'Paracetamol', 'purpose': 'Purpose pain reliever/fever reducer', 'do_not_use': 'Do not use if you are allergic to acetaminophen or any of the inactive ingredients in this product with any other drug containing acetaminophen (prescription or nonprescription). if you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.'}
+Processing successful!
+------------------------------------------------------------------------
+
+[20240314_232531]
+Processing image from web...
+------------------------------------------------------------------------
+Result from imageProcessor(image): ['pharmacy medicine', 'keep out of reach of children', 'pharmacy', 'paracetamol', 'health?', 'paracetamol 500 mg', 'capsule', 'shaped', 'tablets', 'pain relief that is gentle on the stomach', 'aust r 295505']
+<<pharmacy medicine>> = 
+<<keep out of reach of children>> = 
+<<pharmacy>> = 
+<<paracetamol>> = paracetamol
+<<health?>> = 
+<<paracetamol 500 mg>> = 
+<<capsule>> = 
+<<shaped>> = 
+<<tablets>> = 
+<<pain relief that is gentle on the stomach>> = 
+<<aust r 295505>> = 
+Medicines Identified = ['paracetamol']
+Processing successful!
+------------------------------------------------------------------------
+
+Checking availability of paracetamol in OpenFDA
+paracetamol not found in OpenFDA
+webResponse = {'generic_name': 'Paracetamol', 'purpose': 'Purpose pain reliever/fever reducer', 'do_not_use': 'Do not use if you are allergic to acetaminophen or any of the inactive ingredients in this product with any other drug containing acetaminophen (prescription or nonprescription). if you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.'}
+[20240314_232531]
+Processing image from web...
+------------------------------------------------------------------------
+Result from imageProcessor(image): ['ibuprofen', '40umg tablets bp', ';flamingo']
+<<ibuprofen>> = ibuprofen
+<<40umg tablets bp>> = 
+<<;flamingo>> = 
+Medicines Identified = ['ibuprofen']
+Processing successful!
+------------------------------------------------------------------------
+
+Checking availability of ibuprofen in OpenFDA
+ibuprofen not found in OpenFDA
+webResponse = {'generic_name': 'Ibuprofen', 'purpose': 'Purpose pain reliever/fever reducer', 'do_not_use': 'Do not use if you have ever had an allergic reaction to any other pain reliever/fever reducer right before or after heart surgery'}
+[20240314_232531]
+Processing image from web...
+------------------------------------------------------------------------
+Result from imageProcessor(image): ['ibuprofen', '40umg tablets bp', ';flamingo']
+<<ibuprofen>> = ibuprofen
+<<40umg tablets bp>> = 
+<<;flamingo>> = 
+Medicines Identified = ['ibuprofen']
+Processing successful!
+------------------------------------------------------------------------
+
+Checking availability of ibuprofen in OpenFDA
+ibuprofen not found in OpenFDA
+webResponse = {'generic_name': 'Ibuprofen', 'purpose': 'Purpose pain reliever/fever reducer', 'do_not_use': 'Do not use if you have ever had an allergic reaction to any other pain reliever/fever reducer right before or after heart surgery'}
+[20240314_233112]
+Processing image from web...
+------------------------------------------------------------------------
+Result from imageProcessor(image): ['ibuprofen', '40umg tablets bp', ';flamingo']
+<<ibuprofen>> = ibuprofen
+<<40umg tablets bp>> = 
+<<;flamingo>> = 
+Medicines Identified = ['ibuprofen']
+Processing successful!
+------------------------------------------------------------------------
+
+Checking availability of ibuprofen in OpenFDA
+ibuprofen not found in OpenFDA
+webResponse = {'generic_name': 'Ibuprofen', 'purpose': 'Purpose pain reliever/fever reducer', 'do_not_use': 'Do not use if you have ever had an allergic reaction to any other pain reliever/fever reducer right before or after heart surgery'}
+[20240315_011842]
+Processing image from web...
+------------------------------------------------------------------------
+Result from imageProcessor(image): ['pharmacy medicine', 'keep out of reach of children', 'pharmacy', 'paracetamol', 'health?', 'paracetamol 500 mg', 'capsule', 'shaped', 'tablets', 'pain relief that is gentle on the stomach', 'aust r 295505']
+pharmacy medicine = <<>>
+keep out of reach of children = <<>>
+pharmacy = <<>>
+paracetamol = <<paracetamol>>
+health? = <<>>
+paracetamol 500 mg = <<>>
+capsule = <<>>
+shaped = <<>>
+tablets = <<>>
+pain relief that is gentle on the stomach = <<>>
+aust r 295505 = <<>>
+Medicines Identified = ['paracetamol']
+Processing successful!
+------------------------------------------------------------------------
+
+Checking availability of paracetamol in OpenFDA
+paracetamol not found in OpenFDA
+webResponse = {'generic_name': 'Paracetamol', 'purpose': 'Purpose pain reliever/fever reducer', 'do_not_use': 'Do not use if you are allergic to acetaminophen or any of the inactive ingredients in this product with any other drug containing acetaminophen (prescription or nonprescription). if you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.'}
+[20240315_011842]
+Processing image from web...
+------------------------------------------------------------------------
+Result from imageProcessor(image): ['ibuprofen', '40umg tablets bp', ';flamingo']
+ibuprofen = <<ibuprofen>>
+40umg tablets bp = <<>>
+;flamingo = <<>>
+Medicines Identified = ['ibuprofen']
+Processing successful!
+------------------------------------------------------------------------
+
+Checking availability of ibuprofen in OpenFDA
+ibuprofen not found in OpenFDA
+webResponse = {'generic_name': 'Ibuprofen', 'purpose': 'Purpose pain reliever/fever reducer', 'do_not_use': 'Do not use if you have ever had an allergic reaction to any other pain reliever/fever reducer right before or after heart surgery'}
+[20240315_053729]
+Processing image from web...
+------------------------------------------------------------------------
+Result from imageProcessor(image): ['pharmacy medicine', 'keep out of reach of children', 'pharmacy', 'paracetamol', 'health?', 'paracetamol 500 mg', 'capsule', 'shaped', 'tablets', 'pain relief that is gentle on the stomach', 'aust r 295505']
+pharmacy medicine = <<>>
+keep out of reach of children = <<>>
+pharmacy = <<>>
+paracetamol = <<paracetamol>>
+health? = <<>>
+paracetamol 500 mg = <<>>
+capsule = <<>>
+shaped = <<>>
+tablets = <<>>
+pain relief that is gentle on the stomach = <<>>
+aust r 295505 = <<>>
+Medicines Identified = ['paracetamol']
+Processing successful!
+------------------------------------------------------------------------
+
+Checking availability of paracetamol in OpenFDA
+An exception occurred in createWebResponse(genericNames) function.
+HTTPSConnectionPool(host='api.fda.gov', port=443): Max retries exceeded with url: /drug/label.json?search=openfda.generic_name:%22acetaminophen%22 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000218FFDFF890>: Failed to resolve 'api.fda.gov' ([Errno 11001] getaddrinfo failed)"))

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="{% static 'img/TU.png' %}" />
+    <title>About | MedRec</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        height: 5vw;
+        padding: 1vh 1.5vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      header > a > img {
+        height: 100%;
+        width: auto;
+      }
+
+      main {
+        padding: 8vw;
+        line-height: 1.5em;
+        font-size: xx-large;
+      }
+
+      figure > img {
+        width: 15vw;
+        height: auto;
+      }
+
+      footer > p {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="http://localhost:8000/"
+        ><img src="{% static 'img/logo.png' %}" alt="MRS Logo"
+      /></a>
+      <h2>Medicine Recognition System</h2>
+      <h3>About</h3>
+    </header>
+    <main>
+      <p>
+        This app uses Optical Character Recognition.<br />
+        It extracts information from medicine labels and packaging.
+      </p>
+      <figure>
+        <img src="{% static 'img/get-it-on-web.png' %}" alt="Web App" />
+        <img src="{% static 'img/get-it-on-google.png' %}" alt="Android App" />
+      </figure>
+    </main>
+    <footer>
+      <p>&copy; 2024 - MedRec<br /></p>
+    </footer>
+  </body>
+</html>

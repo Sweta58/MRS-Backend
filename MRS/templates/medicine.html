@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="{% static 'img/TU.png' %}" />
+    <title>{{generic_name}} | MedRec</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        height: 6vw;
+        padding: 1vh 1.5vw;
+      }
+
+      header > a > img {
+        height: 100%;
+        width: auto;
+      }
+
+      header > a {
+        text-decoration: none;
+        color: black;
+      }
+
+      header > a:hover {
+        color: navy;
+      }
+
+      main {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        background: #f8f8f8;
+        display: grid;
+        grid-template-columns: 63fr 37fr;
+        margin-top: 5vh;
+        margin-right: 9vw;
+        margin-left: 9vw;
+        border-radius: 25px;
+      }
+
+      main:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      article {
+        padding: 5vh;
+        border: 0;
+      }
+
+      figure {
+        margin: 1vw;
+      }
+
+      figure > img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="http://localhost:8000/web/"
+        ><img src="{% static 'img/logo.png' %}" alt="MRS Logo"
+      /></a>
+      <h1>Medicine Recognition System</h1>
+      <a href="http://localhost:8000/about/"><h3>About</h3></a>
+    </header>
+    <main>
+      <article>
+        <h2>{{generic_name}}</h2>
+        <hr />
+        <br />
+        <h3>Used As:</h3>
+        <p>{{purpose}}</p>
+        <h3>Warning:</h3>
+        <p>{{do_not_use}}</p>
+      </article>
+      <figure><img src="{% static image_path %}" /></figure>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.vercel
+*.log
+*.pyc
+__pycache__
+MRS/projectLogic.py
+
+# Environments
+.venv/
+.venv.bak/

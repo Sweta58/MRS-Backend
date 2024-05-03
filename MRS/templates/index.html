@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="{% static 'img/TU.png' %}" />
+    <title>MedRec</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        height: 5vw;
+        padding: 1vh 1.5vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      header > a > img {
+        height: 100%;
+        width: auto;
+      }
+
+      header > a {
+        text-decoration: none;
+        color: black;
+      }
+
+      header > a:hover {
+        color: navy;
+      }
+
+      form {
+        display: inline-block;
+        width: 86vw;
+        margin: 7vw;
+        border: 2px dotted darkgrey;
+        padding: 0 2vw 18vw 2vw;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="{% static 'img/logo.png' %}" alt="MRS Logo" />
+      <h2>Medicine Recognition System</h2>
+      <a href="http://localhost:8000/about/"><h3>About</h3></a>
+    </header>
+    <form
+      action="http://localhost:8000/web/"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <h3>Take A Photo Of Medicine</h3>
+      <hr />
+      <br />
+      <input
+        type="file"
+        name="photo"
+        id="imageChooser"
+        accept="image/jpg, image/jpeg, image/png"
+        capture="environment"
+        required
+      />
+      <input type="submit" value="Upload" />
+    </form>
+  </body>
+</html>
